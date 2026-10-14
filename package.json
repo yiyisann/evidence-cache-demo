@@ -1,0 +1,10 @@
+{
+  "name": "evidence-cache-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free teaching example of last-good evidence and explicit freshness.",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node demo.mjs", "test": "node --test cache.test.mjs" },
+  "license": "MIT"
+}
