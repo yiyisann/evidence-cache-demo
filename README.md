@@ -25,7 +25,7 @@ Expected run: unknown → fresh → stale after a failed refresh (same value, so
 
 The check time and the source observation time remain separate. Inputs are bounded. Error payloads are not retained. Tests cover expiry boundaries, out-of-order events, time zones, conflict, recovery and preservation through repeated failures.
 
-This is a new teaching example written with Codex assistance for this portfolio. It does not copy private project code, Git history, data, dependency implementations or game assets. It is inspired by general cache and provenance principles; it is not the production implementation of any featured project.
+This independent teaching example was prepared with Codex assistance on 14 October 2026. It accompanies a portfolio of products developed with Claude Code and Codex; this sample has its own recorded origin. It was written separately rather than extracted from PCC or MCP, and does not copy private project code, Git history, data, dependency implementations or game assets. It is inspired by general cache and provenance principles, and is not the production implementation of any featured project.
 
 **Limits:** In-memory, one stream, no network, persistence, UI, concurrency control or source authentication. A caller must validate input and serialize refreshes; typed success events do not independently prove source truth. JavaScript Date parsing is not a full calendar-validation library. Do not treat this sample as a production cache or security boundary.
 
